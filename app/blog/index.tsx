@@ -11,7 +11,7 @@ export default function Blog() {
       <Button title="Go to Blog 2" onPress={() => router.push("/blog/2")} />
       <Button
         title="Go to Blog 3"
-        onPress={() => router.push("/blog/3?author=John")}
+        onPress={() => router.push("/blog/3")} //?author=John
       />
       <Link
         href={{
